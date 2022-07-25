@@ -17,7 +17,7 @@ const Landing = () => {
   return (
     <Container maxWidth="md" sx={{ marginTop: 10, textAlign: "center" }}>
       <Typography fontFamily="Ubuntu" fontSize={50}>
-        Random <span className="text-color-gradient">Leetcode</span> Problems
+        Random <span className="text-color-gradient">LC</span> Problems
       </Typography>
       <Box sx={{ marginTop: 7 }}>
         <Button
