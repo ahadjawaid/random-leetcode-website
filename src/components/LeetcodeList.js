@@ -13,7 +13,9 @@ const LeetcodeList = () => {
         <div key={key}>
           <ListItem>
             <ListItemText>
-              <Link href={link}>{name}</Link>
+              <Link href={link} target="_blank">
+                {name}
+              </Link>
             </ListItemText>
           </ListItem>
           <Divider />

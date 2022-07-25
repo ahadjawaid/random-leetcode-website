@@ -5,19 +5,17 @@ import RandomLeetcode from "./RandomLeetcode";
 
 const randomQuestionIndex = (setDisplayList, setRandomIndex) => {
   setDisplayList(false);
-  setRandomIndex(() => Math.floor(Math.random() * 76));
+  setRandomIndex(() => Math.random());
 };
 
 const Landing = () => {
   const [displayList, setDisplayList] = useState(true);
-  const [randomIndex, setRandomIndex] = useState(
-    Math.floor(Math.random() * 76)
-  );
+  const [randomIndex, setRandomIndex] = useState(Math.random());
 
   return (
     <Container maxWidth="md" sx={{ marginTop: 10, textAlign: "center" }}>
       <Typography fontFamily="Ubuntu" fontSize={50}>
-        Random <span className="text-color-gradient">LC</span> Problems
+        Random <span className="text-color-gradient">Leetcode</span> Problems
       </Typography>
       <Box sx={{ marginTop: 7 }}>
         <Button
